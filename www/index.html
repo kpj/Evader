@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <title>Evader</title>
+    </head>
+    <body>
+        <div class="app">
+            <div id="welcome" class="info">Touch screen to start</div>
+            <div id="score" class="info"></div>
+            <canvas id="field" width="0" height="0"></canvas>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript" src="js/libs/zepto.min.js"></script>
+        <script type="text/javascript" src="js/utils.js"></script>
+        <script type="text/javascript" src="js/input.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
